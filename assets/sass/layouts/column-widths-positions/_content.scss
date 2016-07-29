@@ -1,0 +1,27 @@
+/* ### Content */
+
+.content {
+  float: right;
+  width: 880px;
+}
+
+
+.content {
+  .content-sidebar &,
+  .content-sidebar-sidebar &,
+  .sidebar-content-sidebar & {
+    float: left;
+  }
+}
+
+.content {
+  .content-sidebar-sidebar &,
+  .sidebar-content-sidebar &,
+  .sidebar-sidebar-content & {
+    width: 660px;
+  }
+}
+
+.full-width-content .content {
+  width: 100%;
+}
