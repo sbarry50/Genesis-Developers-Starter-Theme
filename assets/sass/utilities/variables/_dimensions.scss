@@ -6,6 +6,12 @@
 $titleArea__Width: 300px;
 $siteTitle__LinkMinHeight: 80px;
 $headerRight__Width: 800px;
-$headerRight__LaptopWidth: 620px;
-$headerRight__TabletWidth: 100%;
+$headerRight__Width_LargeScreen: 620px;
+$headerRight__Width_MediumScreen: 100%;
 $searchForm__Width: 50%;
+
+// Footer Module
+$footerWidgets__Width: 380px;
+$footerWidgets__Width_LargerScreen: 340px;
+$footerWidgets__Width_LargeScreen: 300px;
+$footerWidgets__Width_MediumScreen: 100%;

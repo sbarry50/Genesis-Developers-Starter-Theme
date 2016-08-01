@@ -12,6 +12,7 @@ $body__BackgroundColor: #eee;
 // Header
 //========================================
 
+$siteHeader__BackgroundColor: $white;
 $siteTitle__LinkColor: #333;
 
 //
@@ -40,11 +41,15 @@ $navToggle__BackgroundColor: $white;
 $navToggle__BorderColor: #eee;
 $navToggle__Color: #ccc;
 
-$siteHeader__BackgroundColor: $white;
-$siteFooter__BackgroundColor: $white;
-$footerWidgets__BackgroundColor: $white;
-
 $archivePagination__BackgroundColor: $white;
 $archivePagination__Color: #333;
 $archivePagination__HoverBackgroundColor: #c3251d;
 $archivePagination__HoverColor: $white;
+
+//
+// Footer
+//========================================
+
+$siteFooter__BackgroundColor: $white;
+$siteFooter__BorderColor: #eee;
+$footerWidgets__BackgroundColor: $white;
