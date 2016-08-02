@@ -20,8 +20,8 @@ This theme includes the following features:
 
 This child theme requires the following dependencies:
 
-- The Genesis framework
-- Wordpress
+- [Genesis framework](http://my.studiopress.com/themes/genesis/)
+- [Wordpress](https://wordpress.org/download/)
 
 ## Customization
 
