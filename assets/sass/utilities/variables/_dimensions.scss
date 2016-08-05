@@ -2,24 +2,54 @@
 // Dimension Variables
 //=============================
 
-// Header Module
+$baseWidth: 1280;
+$gutter: 40px;
+
+// Max Widths
+$maxWidth: 1280px; //$maxWidth: $baseWidth + px;
+$maxWidth__LargerScreen: 1140px;
+$maxWidth__LargeScreen: 960px;
+$maxWidth__MediumScreen: 800px;
+
+$maxWidth__LandingPage: 800px;
+
+// Header
 $titleArea__Width: 300px;
 $siteTitle__LinkMinHeight: 80px;
 $headerRight__Width: 800px;
 $headerRight__Width_LargeScreen: 620px;
 $headerRight__Width_MediumScreen: 100%;
 
+// Content
+$content__Width: 880px; //$content__Width: $baseWidth * 0.6875 + px;
+$content__Width__LargerScreen: 800px;
+$content__Width__LargeScreen: 620px;
 
-// Footer Module
+$fullWidthContent__Width: 100%;
+
+$primarySidebar__Width: 360px; //$primarySidebar__Width: $baseWidth * 0.28125 + px;
+$primarySidebar__Width__LargerScreen: 300px;
+
+$secondarySidebar__Width: 180px;
+
+$contentSidebarWrap__Width: 1060px;
+$contentSidebarWrap__Width__LargerScreen: 920px;
+$contentSidebarWrap__Width__LargeScreen: 740px;
+
+$contentBothSidebars__Width: 660px;
+$contentBothSidebars__Width__LargerScreen: 580px;
+$contentBothSidebars__Width__LargeScreen: 400px;
+
+// Footer
 $footerWidgets__Width: 380px;
 $footerWidgets__Width_LargerScreen: 340px;
 $footerWidgets__Width_LargeScreen: 300px;
 $footerWidgets__Width_MediumScreen: 100%;
 
-// Widget Module
+// Widgets
 $widgetCalendar__Table__Width: 100%;
 $searchForm__Width: 50%;
 $widgetSearch__Input__Width: 1px;
 
-// Plugins Module
+// Plugins
 $enews__InputSubmit__Width: 100%;
