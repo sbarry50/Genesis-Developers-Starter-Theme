@@ -1,0 +1,23 @@
+//
+// Archive Description
+//========================================
+
+.archive-description {
+  background-color: $archiveDescription__BackgroundColor;
+  font-size: rem( $archiveDescription__FontSize );
+  margin-bottom: 40px;
+  padding: 60px;
+
+  @media only screen and (max-width: $smallScreen) {
+    padding: 30px;
+    margin-bottom: 5%;
+  }
+
+  .archive-description p:last-child {
+    margin-bottom: 0;
+  }
+
+  .entry-title {
+    font-size: rem( $archiveDescription__EntryTitle__FontSize );
+  }
+}

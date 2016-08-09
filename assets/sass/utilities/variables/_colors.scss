@@ -1,5 +1,13 @@
+//
+// Common
+//========================================
+
 $white: #fff;
 $black: #000;
+
+//
+// Base
+//========================================
 
 $base__Color: #333;
 
@@ -7,6 +15,31 @@ $link__Color: #c3251d;
 $link__HoverColor: #333;
 
 $body__BackgroundColor: #eee;
+
+//
+// Elements
+//========================================
+
+$input__Color: #333;
+$input__BackgroundColor: $white;
+$input__BorderColor: #ddd;
+$input__FocusBorderColor: #999;
+
+$hr__BorderColor: #eee;
+
+$button__Color: $white;
+$button__HoverColor: $white;
+$button__BackgroundColor: #333;
+$button__HoverBackgroundColor: #c3251d;
+$button__EntryContent__HoverColor: $white;
+$button__DisabledColor: #777;
+$button__DisabledBackgroundColor: #eee;
+
+$galleryImage__BorderColor: #eee;
+$galleryImage__HoverBorderColor: #999;
+
+$tables__tbody__BorderColor: #eee;
+$tables__td__BorderColor: #eee;
 
 //
 // Header
@@ -47,6 +80,12 @@ $archivePagination__HoverBackgroundColor: #c3251d;
 $archivePagination__HoverColor: $white;
 
 //
+// Breadcrumbs
+//========================================
+
+$breadcrumbs__BackgroundColor: $white;
+
+//
 // Entry Content
 //========================================
 
@@ -61,16 +100,27 @@ $entryContent__Code__Color: #eee;
 $entryFooter__EntryMeta__BorderColor: #eee;
 
 //
+// Author Box
+//========================================
+$authorbox__BackgroundColor: $white;
+
+//
+// Author Box
+//========================================
+$afterEntry__BackgroundColor: $white;
+
+//
 // Comments
 //========================================
 
 $comments__BackgroundColor: $white;
 
 //
-// Comments
+// Sidebar
 //========================================
 
 $sidebar__WidgetTitle__LinkColor: #333;
+$sidebar__Widget__BackgroundColor: $white;
 
 //
 // Footer
@@ -91,3 +141,8 @@ $enews__SubmitButton__BackgroundColor: #c3251d;
 $enews__SubmitButton__Color: $white;
 $enews__SubmitButtonHover__BackgroundColor: $white;
 $enews__SubmitButtonHover__Color: #333;
+
+//
+// Archive
+//========================================
+$archiveDescription__BackgroundColor: $white;

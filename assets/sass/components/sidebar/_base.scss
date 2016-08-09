@@ -1,13 +1,16 @@
 .sidebar {
-  font-size: 16px;
-  font-size: 1.6rem;
+  font-size: $sidebar__FontSize;
   margin-bottom: 40px;
 
+  @media only screen and (max-width: $smallScreen) {
+    margin-bottom: 5%;
+  }
+
   .widget {
-    background-color: #fff;
+    background-color: $sidebar__Widget__BackgroundColor;
     padding: 40px;
 
-    @media only screen and (max-width: 860px) {
+    @media only screen and (max-width: $smallScreen) {
       padding: 30px;
       margin-bottom: 5%;
     }

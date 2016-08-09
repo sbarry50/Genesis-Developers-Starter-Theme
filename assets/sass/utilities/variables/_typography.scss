@@ -1,4 +1,45 @@
 //
+// Common
+//========================================
+
+$fontFamily__SourceSansPro: 'Source Sans Pro', sans-serif;
+
+//
+// Base
+//========================================
+
+$html__FontSize: 62.5%; /* 10px browser default */
+$base__FontFamily: $fontFamily__SourceSansPro;
+$base__FontSize: 20;
+$base__FontSize__SmallScreen: 18;
+$base__LineHeight: 1.625;
+
+$wpCaptionText__FontSize: 14;
+
+//
+// Headings
+//========================================
+
+$headings__FontFamily: $fontFamily__SourceSansPro;
+$headings__LineHeight: 1.2;
+$h1__FontSize: 36;
+$h2__FontSize: 30;
+$h3__FontSize: 24;
+$h4__FontSize: 20;
+$h5__FontSize: 18;
+$h6__FontSize: 16;
+// Alternative: Modular Scale - http://bourbon.io/docs/#modular-scale
+// Tonya's Hello Child Theme implementation - https://github.com/hellofromtonya/hello-child-theme/blob/master/assets/sass/utilities/variables/_typography.scss#L28
+
+//
+// Elements
+//========================================
+
+$input__FontSize: 18;
+$blockquote__FontSize: 30;
+$button__FontSize: 16;
+
+//
 // Header
 //========================================
 $siteTitle__FontSize: 30;
@@ -13,6 +54,11 @@ $primaryNav__FontSize: 14;
 $archivePagination__FontSize: 16;
 
 //
+// Breadcrumbs
+//========================================
+$breadcrumbs__FontSize: 16;
+
+//
 // Entry Content
 //========================================
 $entryMeta__FontSize: 16;
@@ -22,10 +68,27 @@ $entryMeta__Footer__FontSize: 16;
 $entryTitle__FontSize: 36;
 
 //
+// Author Box
+//========================================
+$authorBox__Title__FontSize: 20;
+$authorBox__FontSize: 18;
+
+//
+// After Entry
+//========================================
+$afterEntry__FontSize: 18;
+
+//
 // Comments
 //========================================
 
 $comments__FontSize: 16;
+
+//
+// Sidebar
+//========================================
+
+$sidebar__FontSize: 16;
 
 //
 // Widgets
@@ -39,7 +102,7 @@ $featuredContent__EntryTitle__FontSize: 20;
 //========================================
 
 $siteFooter__FontSize: 16;
-$footerWidgets_FontSize: 18;
+$footerWidgets__FontSize: 18;
 
 //
 // Plugins
@@ -47,3 +110,9 @@ $footerWidgets_FontSize: 18;
 
 $enews__Input__FontSize: 16;
 
+//
+// Archive
+//========================================
+$archiveTitle__FontSize: 20;
+$archiveDescription__EntryTitle__FontSize: 20;
+$archiveDescription__FontSize: 18;
