@@ -2,37 +2,37 @@
 --------------------------------------------- */
 
 .sidebar .enews-widget {
-  background-color: $enews__BackgroundColor;
+  background-color: $enews-widget--background-color;
 
   &, .widget-title {
-    color: $enews__Color;
+    color: $enews-widget--color;
   }
 
   input,
   input:focus {
-    border: 1px solid $enews__Input__BorderColor;
+    border: 1px solid $enews-widget__input--border-color;
   }
 
   input[type="submit"] {
-    background-color: $enews__SubmitButton__BackgroundColor;
-    color: $enews__SubmitButton__Color;
+    background-color: $enews-widget__submit-button--background-color;
+    color: $enews-widget__submit-button--color;
   }
 
   input:hover[type="submit"],
   input:focus[type="submit"]  {
-    background-color: $enews__SubmitButtonHover__BackgroundColor;
-    color: $enews__SubmitButtonHover__Color;
+    background-color: $enews-widget__submit-button--background-color--hover;
+    color: $enews-widget__submit-button--color--hover;
   }
 }
 
 .enews-widget {
   input {
-    font-size: rem( $enews__Input__FontSize );
+    font-size: rem( $enews-widget__input--font-size );
     margin-bottom: 16px;
 
     &[type="submit"] {
       margin: 0;
-      width: $enews__InputSubmit__Width;
+      width: $enews-widget__submit-button--width;
     }
   }
 }

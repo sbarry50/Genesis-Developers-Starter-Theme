@@ -20,11 +20,11 @@
   height: auto;
   width: auto;
   display: block;
-  font-size: 1em;
+  font-size: rem( $screen-reader-text--font-size );
   font-weight: bold;
   padding: 15px 23px 14px;
-  color: $input__Color;
-  background: $input__BackgroundColor;
+  color: $screen-reader-text--color--focus;
+  background: $screen-reader-text--background-color--focus;
   z-index: 100000; /* Above WP toolbar. */
   text-decoration: none;
   box-shadow: 0 0 2px 2px rgba(0,0,0,.6);

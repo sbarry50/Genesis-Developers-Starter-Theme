@@ -1,13 +1,13 @@
 //
-// Entry Meta
+// Entry Footer Meta
 //===================================
 
 .entry-footer {
   .entry-meta {
-    border-top: 1px solid $entryFooter__EntryMeta__BorderColor;
+    border-top: 1px solid $entry-footer__entry-meta--border-color;
     padding-top: 24px;
     margin-bottom: 0;
-    //font-size: rem( $entryMeta__Footer__FontSize );
+    //font-size: rem( $entry-footer__entry-meta--font-size );
   }
 }
 

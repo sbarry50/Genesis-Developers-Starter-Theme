@@ -1,55 +1,67 @@
 //
-// Dimension Variables
+// Base Dimensions
 //=============================
 
-$baseWidth: 1280;
+$base--width: 1280;
 $gutter: 40px;
 
+//
 // Max Widths
-$maxWidth: 1280px; //$maxWidth: $baseWidth + px;
-$maxWidth__LargerScreen: 1140px;
-$maxWidth__LargeScreen: 960px;
-$maxWidth__MediumScreen: 800px;
+//=============================
+$max-width: 1280px; //$max-width: $base--width + px;
+$max-width--larger-screen: 1140px;
+$max-width--large-screen: 960px;
+$max-width--medium-screen: 800px;
 
-$maxWidth__LandingPage: 800px;
+$max-width__landing-page: 800px;
 
+//
 // Header
-$titleArea__Width: 300px;
-$siteTitle__LinkMinHeight: 80px;
-$headerRight__Width: 800px;
-$headerRight__Width_LargeScreen: 620px;
-$headerRight__Width_MediumScreen: 100%;
+//=============================
+$title-area--width: 300px;
+$site-title--link-min-height: 80px;
+$header-right--width: 800px;
+$header-right--width--large-screen: 620px;
+$header-right--width--medium-screen: 100%;
 
+//
 // Content
-$content__Width: 880px; //$content__Width: $baseWidth * 0.6875 + px;
-$content__Width__LargerScreen: 800px;
-$content__Width__LargeScreen: 620px;
+//=============================
+$content--width: 880px; //$content--width: $base--width * 0.6875 + px;
+$content--width--larger-screen: 800px;
+$content--width--large-screen: 620px;
 
-$fullWidthContent__Width: 100%;
+$full-width-content__content--width: 100%;
 
-$primarySidebar__Width: 360px; //$primarySidebar__Width: $baseWidth * 0.28125 + px;
-$primarySidebar__Width__LargerScreen: 300px;
+$sidebar-primary--width: 360px; //$sidebar-primary--width: $base--width * 0.28125 + px;
+$sidebar-primary--width--larger-screen: 300px;
 
-$secondarySidebar__Width: 180px;
+$sidebar-secondary--width: 180px;
 
-$contentSidebarWrap__Width: 1060px;
-$contentSidebarWrap__Width__LargerScreen: 920px;
-$contentSidebarWrap__Width__LargeScreen: 740px;
+$content-sidebar-wrap--width: 1060px;
+$content-sidebar-wrap--width--larger-screen: 920px;
+$content-sidebar-wrap--width--large-screen: 740px;
 
-$contentBothSidebars__Width: 660px;
-$contentBothSidebars__Width__LargerScreen: 580px;
-$contentBothSidebars__Width__LargeScreen: 400px;
+$content-sidebar-sidebar--width: 660px;
+$content-sidebar-sidebar--width--larger-screen: 580px;
+$content-sidebar-sidebar--width--large-screen: 400px;
 
+//
 // Footer
-$footerWidgets__Width: 380px;
-$footerWidgets__Width_LargerScreen: 340px;
-$footerWidgets__Width_LargeScreen: 300px;
-$footerWidgets__Width_MediumScreen: 100%;
+//=============================
+$footer-widgets--width: 380px;
+$footer-widgets--width--larger-screen: 340px;
+$footer-widgets--width--large-screen: 300px;
+$footer-widgets--width--medium-screen: 100%;
 
+//
 // Widgets
-$widgetCalendar__Table__Width: 100%;
-$searchForm__Width: 50%;
-$widgetSearch__Input__Width: 1px;
+//=============================
+$widget-calendar__table--width: 100%;
+$search-form--width: 50%;
+$widget-search__submit-button--width: 1px;
 
+//
 // Plugins
-$enews__InputSubmit__Width: 100%;
+//=============================
+$enews-widget__submit-button--width: 100%;

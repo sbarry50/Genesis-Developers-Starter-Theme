@@ -2,10 +2,10 @@
 
 .sidebar-primary {
   float: right;
-  width: $primarySidebar__Width;
+  width: $sidebar-primary--width;
 
-  @media only screen and (max-width: $largerScreen) {
-    width: $primarySidebar__Width__LargerScreen;
+  @include media( $breakpoint__screen-size--larger ) {
+    width: $sidebar-primary--width--larger-screen;
   }
 
   .sidebar-content &,

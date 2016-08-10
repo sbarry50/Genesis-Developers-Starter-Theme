@@ -7,14 +7,14 @@
   .entry-content &,
   .site-header & {
     margin-bottom: 40px;
-    width: $searchForm__Width;
+    width: $search-form--width;
   }
 
   .site-header & {
     float: right;
     margin: 12px auto 0;
 
-    @media only screen and (max-width: 1023px) {
+    @include media( $breakpoint__screen-size--medium ) {
       float: none;
       margin: 16px auto;
     }
@@ -37,6 +37,6 @@
     margin: -1px;
     padding: 0;
     position: absolute;
-    width: $widgetSearch__Input__Width;
+    width: $widget-search__submit-button--width;
   }
 }

@@ -1,23 +1,27 @@
+//
+// Base Sidebar Styles
+//=========================================
+
 .sidebar {
-  font-size: $sidebar__FontSize;
+  font-size: rem( $sidebar--font-size );
   margin-bottom: 40px;
 
-  @media only screen and (max-width: $smallScreen) {
+  @include media( $breakpoint__screen-size--small ) {
     margin-bottom: 5%;
   }
 
   .widget {
-    background-color: $sidebar__Widget__BackgroundColor;
+    background-color: $sidebar__widget--background-color;
     padding: 40px;
 
-    @media only screen and (max-width: $smallScreen) {
+    @include media( $breakpoint__screen-size--small ) {
       padding: 30px;
       margin-bottom: 5%;
     }
   }
 
   .widget-title a {
-    color: $sidebar__WidgetTitle__LinkColor;
+    color: $sidebar__widget-title--link-color;
     text-decoration: none;
   }
 }

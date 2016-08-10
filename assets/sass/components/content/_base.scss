@@ -1,13 +1,13 @@
 //
-// Main Entry Article
+// Base Content Styles
 //================================
 
 .entry {
-  background-color: $entry__BackgroundColor;
+  background-color: $entry--background-color;
   margin-bottom: 40px;
   padding: 70px 80px;
 
-  @media only screen and (max-width: $smallScreen) {
+  @include media( $breakpoint__screen-size--small ) {
     padding: 30px;
     margin-bottom: 5%;
   }
