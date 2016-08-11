@@ -3,15 +3,16 @@
 //==================================
 
 .site-description {
-  font-size: rem($site-description--font-size);
+  @include rem( font-size,$site-description--font-size);
   font-weight: 400;
   line-height: 1.5;
 
   @include media( $breakpoint__screen-size--medium ) {
     text-align: center;
   }
+}
 
-  &, .site-title {
-    margin-bottom: 0;
-  }
+.site-description,
+.site-title {
+  margin-bottom: 0;
 }

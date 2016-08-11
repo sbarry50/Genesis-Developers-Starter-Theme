@@ -20,7 +20,7 @@
   height: auto;
   width: auto;
   display: block;
-  font-size: rem( $screen-reader-text--font-size );
+  @include rem( font-size, $screen-reader-text--font-size );
   font-weight: bold;
   padding: 15px 23px 14px;
   color: $screen-reader-text--color--focus;

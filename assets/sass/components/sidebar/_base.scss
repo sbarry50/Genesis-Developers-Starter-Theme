@@ -3,7 +3,7 @@
 //=========================================
 
 .sidebar {
-  font-size: rem( $sidebar--font-size );
+  @include rem( font-size, $sidebar--font-size );
   margin-bottom: 40px;
 
   @include media( $breakpoint__screen-size--small ) {

@@ -27,7 +27,7 @@
 
 .enews-widget {
   input {
-    font-size: rem( $enews-widget__input--font-size );
+    @include rem( font-size, $enews-widget__input--font-size );
     margin-bottom: 16px;
 
     &[type="submit"] {
