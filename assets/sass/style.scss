@@ -15,66 +15,13 @@
 	Text Domain: developers
 */
 
-/* # Table of Contents
-- HTML5 Reset
-	- Baseline Normalize
-	- Box Sizing
-	- Float Clearing
-- Defaults
-	- Typographical Elements
-	- Headings
-	- Objects
-	- Gallery
-	- Forms
-	- Tables
-	- Screen Reader Text
-- Structure and Layout
-	- Site Containers
-	- Column Widths and Positions
-	- Column Classes
-- Common Classes
-	- Avatar
-	- Genesis
-	- Search Form
-	- Titles
-	- WordPress
-- Widgets
-	- Featured Content
-- Plugins
-	- Genesis eNews Extended
-	- Jetpack
-- Skip Links
-- Site Header
-	- Title Area
-	- Widget Area
-- Site Navigation
-	- Accessible Menu
-	- Site Header Navigation
-	- After Header Navigation
-	- Footer Navigation
-- Content Area
-	- Entries
-	- Entry Meta
-	- Pagination
-	- Comments
-- Sidebars
-- Footer Widgets
-- Site Footer
-- Media Queries
-	- Max-width: 1340px
-	- Max-width: 1200px
-	- Max-width: 1023px
-	- Max-width: 860px
-- Print Styles
-*/
+@import 'bourbon';
+@import 'neat';
+@import '../../node_modules/sass-rem/rem';
 
-@import "bourbon";
-@import "neat";
-@import "../../node_modules/sass-rem/rem";
-
-@import "utilities/index";
-@import "base/index";
-@import "layouts/index";
-@import "plugins/index";
-@import "components/index";
-@import "views/index";
+@import 'utilities/index';
+@import 'base/index';
+@import 'layouts/index';
+@import 'plugins/index';
+@import 'components/index';
+@import 'views/index';
