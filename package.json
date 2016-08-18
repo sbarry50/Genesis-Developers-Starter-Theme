@@ -16,8 +16,10 @@
   },
   "homepage": "https://github.com/sbarry50/Genesis-Developers-Starter-Theme#readme",
   "devDependencies": {
+    "animate.css": "^3.5.1",
     "bourbon": "^4.2.6",
     "bourbon-neat": "^1.7.2",
+    "browser-sync": "^2.14.0",
     "css-mqpacker": "^5.0.1",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.0",
